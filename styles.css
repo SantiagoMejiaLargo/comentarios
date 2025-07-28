@@ -1,0 +1,146 @@
+.superiores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.comentario {
+    background-color: black;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.coment {
+    color: white;
+}
+
+.img-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.firma {
+    padding-left: 20px;
+}
+
+.firma p {
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.opinion{
+    border: solid black;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 20px 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.johana {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.user3 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.img-3 {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    align-self: flex-start;
+}
+
+.puntuacion {
+    background-color: black;
+    max-width: 400px;
+    margin-left: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+i {
+    color: yellow;
+}
+
+.puntuacion h2 {
+    color: white;
+}
+
+.descripcion {
+    font-size: 15px;
+    color: gray;
+}
+
+.testimonios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonio {
+    padding: 20px;
+    margin: 20px;
+    max-width: 65%;
+    text-align: center;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.images{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.images i {
+    color: black;
+}
+
+.images button {
+    background-color: white;
+    border: none;
+    margin: 10px;
+}
+
+#dif {
+    filter: blur(5px);
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 1000px) {
+    .superiores {
+        flex-direction: column;
+    }
+
+    .user3 {
+        flex-direction: column;
+    }
+
+    .img-3 {
+        align-self: center;
+    }
+}
